@@ -19,7 +19,6 @@ function App() {
   const shipsElements = ships ? (
     ships.map((ship) => (
       <h3 key={ship.name} className="ship">
-        {" "}
         {ship.name}
       </h3>
     ))
